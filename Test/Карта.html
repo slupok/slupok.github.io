@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+	<style type="text/css">
+		*{
+			font-family:'Open Sans', sans-serif;
+		}
+		body{
+			display: flex;
+			flex-direction: column;
+		}
+		header{
+			color: #bf0000;
+			background-image: url(https://allods.mail.ru/files/images/a_top.png);
+			background-size: 100% 100%;
+			background-position: center;
+			margin-bottom: -25px;
+			z-index: 1;
+			text-align: center;
+		}
+		main{
+			background-image: url(https://allods.mail.ru/files/images/a_middle.png);
+			background-size: 100%;
+			background-position: center;
+			padding-left: 30px;
+			padding-right: 30px;
+			color: #5F0710;
+			padding-bottom: 50px;
+		}
+		footer{
+			background-image: url(https://allods.mail.ru/files/images/a_bottom.png);
+			background-size: 100% 100%;
+			background-position: center;
+			margin-top: -40px;
+			z-index: 1;
+			height: 100px;
+		}
+		li{
+			padding-bottom: 5px;
+		}
+		.task{
+			color: yellow;
+		}
+		img{
+			display: block;
+			/*margin: auto;*/
+		}
+		.mark{
+			width: 50px;
+		}
+		.map{
+			width: 100%;
+			border-radius: 10px;
+			box-shadow: 1px 1px 8px black;
+		}
+		h2{
+			color: #2586d0;
+			text-align: center;
+		}
+		h3{
+			/*color: #595959;*/
+			display: inline-block;
+			border-bottom: 1px solid #5F0710;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Локация</h1>
+	</header>
+	<main>
+			<h2>Остров "Зеленая роща"</h2>
+			<img class="map" src="map_final.jpg">
+			<h2>Сценарий</h2>
+			<p> На селения напали разбойники, они взяли в плен местного короля, а сам главарь скрывается в замке. Необходимо освободить короля и отвоевать поселения.</p>
+			<h2>Обозначения</h2>
+			<img class="mark" src="human.png">
+			<p>Жители. При появлении героя они рассказуют, что здесь произошло и просят о помощи.</p>
+			<h3>Противники</h3>
+			<p><b>Примечание: </b> Каждый указатель обычных противников на карте подразумевает наличие 1-3 соответсвующих мобов.</p>
+			<img class="mark" src="mob_war.png">
+			<p>Орк-воин.Уникальная способность: Имеет большое здоровье и броню.</p>
+			<img class="mark" src="mob_rogue.png">
+			<p>Разбойник. Уникальная способность: Кровотечение(периодический урон).</p>
+			<img class="mark" src="mob_hunt.png">
+			<p>Лучник. Уникальная способность: отпрыгивает назад(кульбит), если враг близко.</p>
+			<img class="mark" src="mob_wizard.png">
+			<p>"Эльф-маг". Уникальная способность: Смертельный вихрь(периодический урон).</p>
+			<img class="mark" src="boss.png">
+			<p>"Босс".</p>
+			<ol>
+				<li>
+					"Одноухий Джим (Гибберлинг-разведчик)"<br>
+					- Дальний и ближний бой.<br>
+					- отпрыгивает назад(кульбит) и бросает гранату в цель.<br>
+					Рядом:<br>
+					Разбойники: 2х<br>
+					Лучники: 1x
+				</li>
+				<li>
+					"Косое копыто (Кентавр-тюремщик)"<br>
+					- прыгает в область и наносит урон(AoE).<br>
+					- Раскручивается и наносит урон(Периодический, АоЕ).<br>
+					Рядом:<br>
+					Разбойники: 2х<br>
+					Орк-воин: 2x
+				 </li>
+			</ol>
+			<img class="mark" src="final_boss.png">
+			<p>"Финальный босс".<br>Большой Билли (Главарь разбойников)<br>
+			- Кидает кинжалы по направлению взгляда(AoE).<br>
+			- периодически нападают 1-2 разбойника.
+			- Впадает в ярость(увеличеный урон), когда мало здоровья.<br>
+			- Когда мало здоровья призывает отряд разбойников, а сам скрывается пока их не убьют.
+			</p>
+			<p>Рядом:<br>
+				Лучники: 2x<br>
+				Разбойники: 3х<br>
+				Орк-воин: 2x	
+			</p>
+			<h3>Иные указатели</h3>
+			<img class="mark" src="mark1.png">
+			<p>"Квест"</p>
+			<p>1. В пещере можно найти старика, отгадав его загадки можно получить драконье снадобье силы. Загадки отгадываются по принципу "сопоставить".<br>
+			Где вода столбом стоит? (Колодец)<br>
+			Белая морковка зимой растет. (Сосулька)<br>
+			Бежит, бежит — не выбежит. (Река) <br>
+			Всех кормит, а сама есть не просит. (Земля)
+			</p>
+			<p>2. Потушить караван водой из реки.</p>
+			<img class="mark" src="mark3.png">
+			<p>"Особое место"</p>
+			<img class="mark" src="mark2.png">
+			<p>"Скриптовое событие"</p>
+			<p>1.Перед героем закрываются ворота, он  попадает в ловушку Одноухого Джима, который со своими бойцами нападает с тыла.</p>
+			<img class="mark" src="jail.png">
+			<p>"Клетка с королем". Необходима убить тюремщика, забрарать ключи и открыть клетку.</p>
+			
+	</main>
+	<footer>
+		
+	</footer>
+</body>
+</html>
