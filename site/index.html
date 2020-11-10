@@ -44,6 +44,9 @@
 		b{
 			color: #B22222;
 		}
+		xmp{
+			display: inline;
+		}
 	</style>
 </head>
 <body>
@@ -111,6 +114,10 @@
 			<div class="element"> 
 				<b>&lt;div&gt;..&lt;/div&gt;</b><br>Универсальный тег, может содержать в себе другие теги. Он очень широко используется в разработке веб-страниц для деления страницы на секции и группирование элементов
 			</div>
+			<div class="element"> 
+				<b>Класс</b> - это произвольное имя HTML-элементов, которое мы можем изменять с помощью CSS-стилей
+				Пример:<br><b><xmp><div class="myClass">..</div></xmp></b>
+			</div>
 		</div>
 		<br>
 		<br>
@@ -129,6 +136,13 @@
 				[свойство]:&nbsp[значение];<br>
 				}</b>
 			</div>
+			<div class="element">
+				Что бы изменить эл. с классом, нужно использовать <b>точку</b>:<br>
+				<b>.myClass{<br>
+				color: red;<br>
+				font-family: cursive;<br>
+				}</b>
+			</div>
 
 			<div class="element">
 				Пример(Изменение цвета и шрифта текста):<br>
@@ -136,6 +150,20 @@
 					color: red;<br>
 					font-family: cursive;<br>
 				}</b>
+			</div>
+			<div class="element">
+				Цвета в CSS задаются одним из трех способов:<br>
+				1. Название цвета: <b>Skyblue</b><br>
+				2. RGB-палитра: <b>rgb(135,206,235)</b><br>
+				3. Шестнадцатеричный код: <b>#87CEEB</b><br>
+			</div>
+			<div class="element">
+			<b>:hover</b><br>
+			Псевдокласс, добавляет стиль к элементу при наведении на него курсора мыши, указывается после имени элемента.
+			</div>
+			<div class="element">
+			<b>:active</b><br>
+			Псевдокласс, добавляет стиль к элементу при нажатие по нему курсора мыши, указывается после имени элемента.
 			</div>
 
 			<h2>Cвойства</h2>
@@ -177,6 +205,21 @@
 			<div class="element">
 				<b>box-shadow: [ось X] [ось Y] [размытие] [цвет]</b><br>Тени элемента<br>
 				<a href="https://html5book.ru/css3-ten-bloka/">Подробнее</a>
+			</div>
+			<div class="element">
+				<b>background-image: url(..)</b><br>Фоновый цвет<br>
+			</div>
+			<div class="element">
+				<b>background-position</b><br>Расположение фона<br>
+			</div>
+			<div class="element">
+				<b>background-size</b><br>Способ заполнения(растяжения) фона<br>
+			</div>
+			<div class="element">
+				<b>CSS flexbox</b> - модуль макета гибкого контейнера<br>
+				представляет собой способ компоновки элементов, в основе лежит идея оси.
+				Что бы его включить нужно указать <b>display:flex</b>
+				<a href="https://tpverstak.ru/flex-cheatsheet/">Подробнее</a>
 			</div>
 		</div>
 	</main>
