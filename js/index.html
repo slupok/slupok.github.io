@@ -55,174 +55,70 @@
 			<h1>JS</h1>
 
 			<div class="element">
-				<b>HTML</b> - Язык программирования
+				<b>JS</b> - Язык программирования
 			</div>
-
 			<div class="element">
-			  <b>&lt;html&gt;..&lt;/html&gt;</b><br> Самый главный тег, содержит все остальные html-теги. 
+			  <b>console.log(...)</b><br> Вывод в консоль
+			</div>
+			<div class="element">
+			  <b>var [имя_переменной] = [значение]</b><br> Создание переменной
 			</div>
 			
 			<div class="element">
-			  <b>&lt;head&gt;..&lt;/head&gt;</b><br>Содержимое этого тега не отображается на сайте. Он нужен для предоставления дополнительной информации браузеру(например: название сайта и кодировка сайта)  
+			  <b>Math.floor([число])</b><br> Округление числа
 			</div>
 
 			<div class="element">
-			  <b>&lt;body&gt;..&lt;/body&gt;</b><br>Содержит “тело” нашего сайта(в нем содержится весь контент нашей веб страницы) 
+			  <b>Math.random()*N</b><br>Случайно число в промежутке от 0 до N 
 			</div>
 			
 			<div class="element">
-			  <b>&lt;title&gt;..&lt;/title&gt;</b><br>Название веб-страницы 
+			  <b>Math.floor(Math.random()*N)</b><br>Получаем целое случайное число от 0 до N 
 			</div>
 
 			<div class="element">
-			  <b>&lt;style&gt;..&lt;/style&gt;</b><br>Cодержит внутри CSS стили 
+			  <b>var a = [1,2,3]</b><br> Создание массива 
 			</div>
 
 			<div class="element">
-				<b>&lt;link&gt;</b><br>Подключение внешних ресурсов(CSS стили, шрифты и т.п.) 
+				<b>[имя_массива].length</b><br>узнать длину массива
 			</div>
 
 			<div class="element">
-			  <b>&lt;p&gt;..&lt;/p&gt;</b><br> Содержит текстовую информацию, отображаемую на сайте.
+			  <b>[имя_массива].indexOf([искомый элемент])</b><br> поиск элемента в массиве. Возвращает его индекс, если индекс отрицательный, то элемента в массиве нету
 			</div>
 
 			<div class="element">
-				<b>&lt;img src=”img.jpeg”&gt;</b><br>Отображает картинку на сайт.Имеет обязательный атрибут в котором указывается изображение
+				<b>[массив_1].concat([массив_2])</b><br>склеивание массивов
 			</div>
 
 			<div class="element"> 
-				<b>&lt;h1&gt;..&lt;/h1&gt;</b><br> Заголовок 
+				<b>[массив].push(..)</b><br> добавить элемент в конец массива
 			</div>
 			<div class="element"> 
-				<b>&lt;br&gt;</b><br> Переход на новую строчку 
+				<b>[массив].pop()</b><br> Удалить элемент в конце
 			</div>
 			<div class="element"> 
-				<b>&lt;a href="[адрес]"&gt;..&lt;/a&gt;</b><br> Ссылка на другую страницу. Имеет обязательный атрибут, в котором указывается ссылка
+				<b>[массив].unshift(..)</b><br> добавить элемент в начало массива
 			</div>
 			<div class="element"> 
-				<b>&lt;div&gt;..&lt;/div&gt;</b><br>Универсальный тег, может содержать в себе другие теги. Он очень широко используется в разработке веб-страниц для деления страницы на секции и группирование элементов
+				<b>[массив].shift()</b><br>удалить элемент в начале
 			</div>
 			<div class="element"> 
-				<b>Класс</b> - это произвольное имя HTML-элементов, которое мы можем изменять с помощью CSS-стилей
-				Пример:<br><b><xmp><div class="myClass">..</div></xmp></b>
+				<b>if([условие]){<br>
+					...<br>
+				}<br>
+				else{<br>
+				...<br>
+				}<br>
+				</b>
+				Оператор условия
 			</div>
 		</div>
 		<br>
 		<br>
 		
-		<div class="block">
-			<h1>CSS</h1>
-
-			<div class="element">
-				<b>CSS</b> - Язык таблиц стилей(например цвет, шрифт и тень), который прикрепляется к HTML-элементам  
-			</div>
-
-			<div class="element">
-				Структура CSS:<br>
-				<b>[элемент]&nbsp{<br>
-				[свойство]:&nbsp[значение];<br>
-				[свойство]:&nbsp[значение];<br>
-				}</b>
-			</div>
-			<div class="element">
-				Что бы изменить эл. с классом, нужно использовать <b>точку</b>:<br>
-				<b>.myClass{<br>
-				color: red;<br>
-				font-family: cursive;<br>
-				}</b>
-			</div>
-
-			<div class="element">
-				Пример(Изменение цвета и шрифта текста):<br>
-				<b>p{<br>
-					color: red;<br>
-					font-family: cursive;<br>
-				}</b>
-			</div>
-			<div class="element">
-				Цвета в CSS задаются одним из трех способов:<br>
-				1. Название цвета: <b>Skyblue</b><br>
-				2. RGB-палитра: <b>rgb(135,206,235)</b><br>
-				3. Шестнадцатеричный код: <b>#87CEEB</b><br>
-			</div>
-			<div class="element">
-			<b>:hover</b><br>
-			Псевдокласс, добавляет стиль к элементу при наведении на него курсора мыши, указывается после имени элемента.
-			</div>
-			<div class="element">
-			<b>:active</b><br>
-			Псевдокласс, добавляет стиль к элементу при нажатие по нему курсора мыши, указывается после имени элемента.
-			</div>
-
-			<h2>Cвойства</h2>
-			<div class="element">
-				<b>color</b><br>Цвет текста
-			</div>
-
-			<div class="element">
-				<b>font-size</b><br>Размер текста
-			</div>
-
-			<div class="element">
-				<b>font-family</b><br>Шрифт
-			</div>
-			<div class="element">
-				<b>text-align</b><br>Выравнивание текста
-			</div>
-			<div class="element">
-				<b>width</b><br>Ширина элемента
-			</div>
-			<div class="element">
-				<b>height</b><br>Высота элемента
-			</div>
-			<div class="element">
-				<b>margin</b><br>Внешний отступ
-			</div>
-			<div class="element">
-				<b>padding</b><br>Внутренний отступ
-			</div>
-			<div class="element">
-				<b>border: [толщина] [стиль] [цвет]</b><br>Рамка
-			</div>
-			<div class="element">
-				<b>border-radius</b><br>Закругление углов рамки
-			</div>
-			<div class="element">
-				<b>background-color</b><br>Фоновый цвет элемента
-			</div>
-			<div class="element">
-				<b>box-shadow: [ось X] [ось Y] [размытие] [цвет]</b><br>Тени элемента<br>
-				<a href="https://html5book.ru/css3-ten-bloka/">Подробнее</a>
-			</div>
-			<div class="element">
-				<b>background-image: url(..)</b><br>Фоновый цвет
-			</div>
-			<div class="element">
-				<b>background-position</b><br>Расположение фона
-			</div>
-			<div class="element">
-				<b>background-size</b><br>Способ заполнения(растяжения) фона
-			</div>
-			<div class="element">
-				<b>opacity</b><br>Прозрачность элемента
-			</div>
-			<div class="element">
-				<b>transform</b><br>
-				Изменение (трансформация) элемента<br>
-				<b>scale(..)</b> - размер
-				<b>rotate(..deg)</b> - поворот в градусах(deg)
-			</div>
-			<div class="element">
-				<b>transition</b><br>Время анимации CSS-свойства. Измеряется в секундах(s)
-			</div>
-
-			<div class="element">
-				<b>CSS flexbox</b> - модуль макета гибкого контейнера<br>
-				представляет собой способ компоновки элементов, в основе лежит идея оси.
-				Что бы его включить нужно указать <b>display:flex</b>
-				<a href="https://tpverstak.ru/flex-cheatsheet/">Подробнее</a>
-			</div>
-		</div>
+		
 	</main>
 </body>
 </html>
