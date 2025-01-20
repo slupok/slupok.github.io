@@ -1,0 +1,152 @@
+.design-block {
+    width: 200px;
+    background-color: #A47864;
+}
+
+body {
+    max-width: 1440px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 64px;
+    padding-right: 64px;
+}
+
+h1, h2, h3 {
+    margin: 0px;
+}
+
+#logo {
+    width: 20%;
+    margin: auto 0;
+}
+
+#nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 24px;
+}
+
+#nav-list > li {
+    list-style: none;
+}
+
+#about {
+    padding: 112px 64px 112px 64px;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    background-color:#F1F0E2;
+}
+
+.about-describe {
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+}
+
+.about-list {
+    display: grid;
+    gap: 42px 24px;
+    justify-content: start;
+    grid-template-columns: auto auto;
+    grid-template-rows: 1fr 1fr;
+}
+
+.about-item-images > img{
+    margin: auto 0;
+}
+
+.about-item-images {
+    display: grid;
+    grid-auto-flow: column dense;
+    gap: 8px 16px;
+    justify-content: start;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 1fr 1fr;
+}
+
+.about-modeling-images{
+    grid-template-areas: 
+    "a c d"
+    "b b e";
+}
+.about-cv-images {
+    grid-template-areas: 
+    "a c ."
+    "b b .";
+}
+
+.about-graphic-editor-images {
+    grid-template-areas: 
+    "a c d"
+    "b b e";
+}
+.a {
+    grid-area: a;
+}
+.b {
+    grid-area: b;
+}
+.c {
+    grid-area: c;
+}
+.d {
+    grid-area: d;
+}
+.e {
+    grid-area: e;
+}
+.f {
+    grid-area: f;
+}
+
+.section {
+    padding: 112px 64px 112px 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.level-about {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.level-header {
+    width: 40%;
+}
+
+.level-describe {
+    width: 50%;
+}
+
+.subjects-list {
+    display: flex;
+    gap: 32px;
+}
+
+.more-ref {
+    padding: 4px;
+    border: 1px solid black;
+}
+
+.material {
+    display: flex;
+    justify-content: space-between;
+    padding: 112px 64px 112px 64px;
+    
+}
+
+.about-material {
+    width: 40%;
+}
+
+.material-details {
+    width: 50%;
+}
