@@ -129,11 +129,11 @@ h1, h2, h3 {
 .subjects-list {
     display: flex;
     gap: 32px;
+    justify-content: space-between;
 }
 
-.more-ref {
-    padding: 4px;
-    border: 1px solid black;
+.subject {
+    flex-grow: 1;
 }
 
 .material {
