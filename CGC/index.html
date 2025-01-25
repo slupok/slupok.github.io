@@ -25,7 +25,7 @@
         <nav>
             <ul id="nav-list">
                 <li><a href="index.html">О компьютерной графике</a></li>
-                <li><a >Карта компетенций</a></li>
+                <li><a href="roadmap.html">Карта компетенций</a></li>
                 <li><a >Специализации</a></li>
                 <li><a href="materials.html">Материалы</a></li>
                 <li><a href="about.html">О проекте</a></li>
@@ -211,7 +211,6 @@
                     generatePreviewSubject(parent, NUMERICAL_METHODS_INFO)
                     generatePreviewSubject(parent, COMPUTATIONAL_GEOMETRY_INFO)
                     generatePreviewSubject(parent, OPTIMIZATION_METHODS_INFO)
-                    generatePreviewSubject(parent, DATA_ANALYSIS_INFO)
                 </script>
             </div>
         </div>
@@ -255,6 +254,7 @@
                 <script class="populate-script">
                     var script = document.currentScript
                     var parent = script.parentElement
+                    generatePreviewSubject(parent, DATA_ANALYSIS_INFO)
                     generatePreviewSubject(parent, FUNC_ANALYSIS_INFO)
                     generatePreviewSubject(parent, COMPLEX_ANALYSIS_INFO)
                     generatePreviewSubject(parent, MATH_PHYS_INFO)
