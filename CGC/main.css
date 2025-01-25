@@ -127,13 +127,14 @@ h1, h2, h3 {
 }
 
 .subjects-list {
-    display: flex;
-    gap: 32px;
-    justify-content: space-between;
+    display: grid;
+    gap: 42px 32px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: repeat(calc(2), auto); /*нужно как-то вычислять для каждого*/
 }
 
 .subject {
-    flex-grow: 1;
+
 }
 
 .material {
