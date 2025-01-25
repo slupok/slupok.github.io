@@ -262,3 +262,9 @@ subjectsArray.set(DATA_ANALYSIS_INFO.attribute, DATA_ANALYSIS_INFO);
 subjectsArray.set(TOMOGRAPHIC_CG_INFO.attribute, TOMOGRAPHIC_CG_INFO);
 subjectsArray.set(PHOTOGRAMMETRY_INFO.attribute, PHOTOGRAMMETRY_INFO);
 subjectsArray.set(CAD_INFO.attribute, CAD_INFO);
+
+subjectsArray.set(FUNC_ANALYSIS_INFO.attribute, FUNC_ANALYSIS_INFO);
+subjectsArray.set(COMPLEX_ANALYSIS_INFO.attribute, COMPLEX_ANALYSIS_INFO);
+subjectsArray.set(MATH_PHYS_INFO.attribute, MATH_PHYS_INFO);
+subjectsArray.set(DIFF_INFO.attribute, DIFF_INFO);
+subjectsArray.set(TOPOLOGICAL_ANALYSIS_INFO.attribute, TOPOLOGICAL_ANALYSIS_INFO);
