@@ -54,7 +54,7 @@ const DISCRETE_MATH_INFO = {
 const STATISTICS_AND_PROBABILITY_INFO = {
     attribute: 5,
     title: "Теория вероятностей и математическая статистика",
-    description: "Скоро будет описание...",
+    description: "Компьютерная графика активно использует вероятностные и статистические методы, например, для симуляции отражения и преломления света, моделирования физических процессов, обработки изображений и задач компьютерного зрения",
     resources: ['[easy] <a href="http://mathprofi.ru/teorija_verojatnostei.html">Теория вероятностей</a>. Теория вероятностей от mathprofi',
                 '[easy] <a href="https://stepik.org/course/3089/promo">Основы теории вероятностей</a>. Курс по основам теории вероятностей на stepik',
                 '[easy] <a href="https://stepik.org/course/57281/promo">Основы теории вероятностей 2</a>. Продолжение курса по основам теории вероятностей на stepik',
