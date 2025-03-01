@@ -107,7 +107,8 @@ const MATH_CG_INFO = {
                 '[en/ru] <a href="https://github.com/ssloy/tinyraycaster/wiki/Part-0:-getting-started">Ray cast tutorial</a>. Создание клона игры Wolfenstein 3D без использования графических библиотек',
                 '[en/ru] <a href="https://github.com/ssloy/tinyraytracer/wiki/Part-1:-understandable-raytracing">Ray trace tutorial</a>. Написание трассировщика лучей на C++',
                 '[en/ru] <a href="https://github.com/ssloy/tinykaboom/wiki/KABOOM!-in-180-lines-of-code">Ray trace KABOOM tutorial</a>. Рендер взрыва трассировкой лучей на C++',
-                '[en] Eric Lengyel "Mathematics for 3D Game Programming and Computer Graphics". Одн из фундаментальных книг по КГ, описывающая академическим языком аспекты математических основ КГ'
+                '[en] <a href="https://www.scratchapixel.com/index.html">Scratchapixel</a>. Сборник образовательных материалов программированию компьютерной графики',
+                '[en] Eric Lengyel "Mathematics for 3D Game Programming and Computer Graphics". Одна из фундаментальных книг по КГ, описывающая академическим языком аспекты математических основ КГ'
         ]
 }
 
@@ -121,7 +122,7 @@ const GRAPHICS_LIB_INFO = {
                 '[en] <a href="https://www.3dgep.com/learning-directx-12-1/">DirectX tutorial</a>. Серия уровков по DorectX',
                 '[en] <a href="https://github.com/microsoft/DirectX-Graphics-Samples">DirectX Graphics Samples</a>. Официальные примеры кода DirectX',
                 '[en] <a href="https://learnopengl.com/Introduction">Lern OpenGL</a>. Обучающий материал по OpenGL',
-                '[en] <a href="https://gpuopen.com/learn/rdna-performance-guide/">Performance Guide DirectX & Vulkan</a>. Лучшие практики и рекомендации по DirectX и Vulkan. Все коротко и по делу',
+                '[en/ru] Джейсон Грегори "Игровой движок. Программирование и внутреннее устройство". Бестселлер, лучшая книга про проектирование игровых движков. Говорят, в рускоязычном издании иллюстрации черно-белые'
             ]
 }
 
@@ -130,7 +131,8 @@ const GAME_ENGINE_INFO = {
     title: "Игровые движки",
     description: "Игровой движок - это фреймворк, предназначенный в первую очередь для разработки видеоигр и обычно включающий соответствующие библиотеки и вспомогательные программы.\n Рекомендация по обучению: в изучении игровых движков гораздо большое влияние имеет практика, чем теория",
     resources: ['[en/ru] <a href="https://learn.unity.com/tutorials">Unity Lern</a>. Официальные обучающие материалы по Unity с разными уровнями сложности',
-                '[en] <a href="https://dev.epicgames.com/community/unreal-engine/learning">Learn Unreal Engine</a>. Библиотека обучающих материалов по Unreal Engine'
+                '[en] <a href="https://dev.epicgames.com/community/unreal-engine/learning">Learn Unreal Engine</a>. Библиотека обучающих материалов по Unreal Engine',
+                '[en/ru] Джейсон Грегори "Игровой движок. Программирование и внутреннее устройство". Бестселлер, лучшая книга про проектирование игровых движков. Говорят, в рускоязычном издании иллюстрации черно-белые'
             ]
 }
 
