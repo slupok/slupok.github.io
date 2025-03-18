@@ -107,7 +107,8 @@ const MATH_CG_INFO = {
                 '[en/ru] <a href="https://github.com/ssloy/tinyraycaster/wiki/Part-0:-getting-started">Ray cast tutorial</a>. Создание клона игры Wolfenstein 3D без использования графических библиотек',
                 '[en/ru] <a href="https://github.com/ssloy/tinyraytracer/wiki/Part-1:-understandable-raytracing">Ray trace tutorial</a>. Написание трассировщика лучей на C++',
                 '[en/ru] <a href="https://github.com/ssloy/tinykaboom/wiki/KABOOM!-in-180-lines-of-code">Ray trace KABOOM tutorial</a>. Рендер взрыва трассировкой лучей на C++',
-                '[en] <a href="https://www.scratchapixel.com/index.html">Scratchapixel</a>. Сборник образовательных материалов программированию компьютерной графики',
+                '[en] <a href="https://pbr-book.org/">Physically Based Rendering: From Theory To Implementation</a>. Онлайн-книга с теорией и реализацией физически корректного рендеринга',
+                '[en] <a href="https://www.scratchapixel.com/index.html">Scratchapixel</a>. Сборник обучающих материалов программированию компьютерной графики',
                 '[en] Eric Lengyel "Mathematics for 3D Game Programming and Computer Graphics". Одна из фундаментальных книг по КГ, описывающая академическим языком аспекты математических основ КГ'
         ]
 }
@@ -243,6 +244,15 @@ const TOPOLOGICAL_ANALYSIS_INFO = {
     resources: ['[ru] <a href="https://www.youtube.com/playlist?list=PLKXEsFnBcT5BD47xO19UsKshsQ7DMU3Sa">Что такое топологический анализ данных</a>']
 }
 
+const PBR_INFO = {
+    attribute: 25,
+    title: "Физически корректный рендеринг",
+    description: "Physically based rendering (PBR) - это метод компьютерной графики, который позволяет рендерить фотореалистичные изображения.",
+    resources: ['[en] <a href="https://pbr-book.org/">Physically Based Rendering: From Theory To Implementation</a> Основная книга по PBR',
+                '[en] Julian Fong, Magnus Wrenninge, Christopher Kulla and Ralf Habel "Production volume rendering: SIGGRAPH 2017 course". Большая статья, описывающая техники современного объемного рендеринге в кинопроизводстве'
+            ]
+}
+
 const subjectsArray = new Map();
 subjectsArray.set(NULL_INFO.attribute, NULL_INFO);
 subjectsArray.set(MATH_ANALYSIS_INFO.attribute, MATH_ANALYSIS_INFO);
@@ -270,3 +280,5 @@ subjectsArray.set(COMPLEX_ANALYSIS_INFO.attribute, COMPLEX_ANALYSIS_INFO);
 subjectsArray.set(MATH_PHYS_INFO.attribute, MATH_PHYS_INFO);
 subjectsArray.set(DIFF_INFO.attribute, DIFF_INFO);
 subjectsArray.set(TOPOLOGICAL_ANALYSIS_INFO.attribute, TOPOLOGICAL_ANALYSIS_INFO);
+
+subjectsArray.set(PBR_INFO.attribute, PBR_INFO);
