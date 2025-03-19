@@ -33,8 +33,9 @@
         </nav>
     </header>
 
-    <div id="about">
-        <div class="about-describe">
+
+    <div id="about-header">
+        <div class="about-describe content">
             <div>
                 <h2>О компьютерной графике</h2>
                 <p>
@@ -46,6 +47,7 @@
                     «Нет царского пути в геометрии» - Евклид
                 </details>
             </div>
+            <!--
             <div class="about-list">
                 <div class="about-item">
                     <img src="resources/Atom.svg">
@@ -87,181 +89,181 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div style="margin-right: calc(-64px - 36px);" class="design-block">
-            
+            -->
         </div>
     </div>
 
-    <div id="levels">
-        <div id="base-math" class="section">
-            <div class="level-about">
-                <div class="level-header">
-                    <p class="level-number">Этап 1</p>
-                    <h2>Основы математики</h2>
+    <div class="content">
+        <div id="levels">
+            <div id="base-math" class="section">
+                <div class="level-about">
+                    <div class="level-header">
+                        <p class="level-number">Этап 1</p>
+                        <h2>Основы математики</h2>
+                    </div>
+                    <div class="level-describe">
+                        <p>
+                            Спойлер:
+                            На самом деле эти разделы математики могут затрагивать вещи, которые не сильно пригодятся новичку,
+                            а иногда и проффессионалу в области программирования графики.
+                            Поэтому данный раздел представляет академический фундаментальный интерес.
+                            <br><br>
+                            Многим для начала будет достаточно прочитать <a href="https://habr.com/ru/articles/131931/">Линейная алгебра для разработчиков игр</a>,
+                            а к этим предметам возвращаться по мере необходимости.
+                        </p>
+                    </div>
                 </div>
-                <div class="level-describe">
-                    <p>
-                        Спойлер:
-                        На самом деле эти разделы математики могут затрагивать вещи, которые не сильно пригодятся новичку,
-                        а иногда и проффессионалу в области программирования графики.
-                        Поэтому данный раздел представляет академический фундаментальный интерес.
-                        <br><br>
-                        Многим для начала будет достаточно прочитать <a href="https://habr.com/ru/articles/131931/">Линейная алгебра для разработчиков игр</a>,
-                        а к этим предметам возвращаться по мере необходимости.
-                    </p>
-                </div>
-            </div>
-            <div class="subjects-list">
-                <script class="populate-script">
-                    var script = document.currentScript
-                    var parent = script.parentElement
-                    generatePreviewSubject(parent, MATH_ANALYSIS_INFO)
-                    generatePreviewSubject(parent, ALGEBRA_INFO)
-                    generatePreviewSubject(parent, ANALYTICAL_GEOMETRY_INFO)
-                    generatePreviewSubject(parent, DISCRETE_MATH_INFO)
-                    generatePreviewSubject(parent, STATISTICS_AND_PROBABILITY_INFO)
-                </script>
-            </div>
-        </div>
-
-        <div id="base-cs" class="section">
-            <div class="level-about">
-                <div class="level-header">
-                    <p class="level-number">Этап 1</p>
-                    <h2>Основы программирования</h2>
-                </div>
-                <div class="level-describe">
-                    <p>
-                        Описание
-                    </p>
+                <div class="subjects-list">
+                    <script class="populate-script">
+                        var script = document.currentScript
+                        var parent = script.parentElement
+                        generatePreviewSubject(parent, MATH_ANALYSIS_INFO)
+                        generatePreviewSubject(parent, ALGEBRA_INFO)
+                        generatePreviewSubject(parent, ANALYTICAL_GEOMETRY_INFO)
+                        generatePreviewSubject(parent, DISCRETE_MATH_INFO)
+                        generatePreviewSubject(parent, STATISTICS_AND_PROBABILITY_INFO)
+                    </script>
                 </div>
             </div>
-            <div class="subjects-list">
-                <script class="populate-script">
-                    var script = document.currentScript
-                    var parent = script.parentElement
-                    generatePreviewSubject(parent, PROGRAMMING_LANGUAGE_INFO)
-                    generatePreviewSubject(parent, ALGORITHMS_AND_DATA_STRUCT_INFO)
-                </script>
-            </div>
-        </div>
-
-        <div id="base-cg" class="section">
-            <div class="level-about">
-                <div class="level-header">
-                    <p class="level-number">Этап 2</p>
-                    <h2>Основы компьютерной графики</h2>
+    
+            <div id="base-cs" class="section">
+                <div class="level-about">
+                    <div class="level-header">
+                        <p class="level-number">Этап 1</p>
+                        <h2>Основы программирования</h2>
+                    </div>
+                    <div class="level-describe">
+                        <p>
+                            Описание
+                        </p>
+                    </div>
                 </div>
-                <div class="level-describe">
-                    <p>
-                        Описание
-                    </p>
-                </div>
-            </div>
-            <div class="subjects-list">
-                <script class="populate-script">
-                    var script = document.currentScript
-                    var parent = script.parentElement
-                    generatePreviewSubject(parent, DIP_INFO)
-                    generatePreviewSubject(parent, MATH_CG_INFO)
-                </script>
-            </div>
-        </div>
-
-        <div id="graphics-programming" class="section">
-            <div class="level-about">
-                <div class="level-header">
-                    <p class="level-number">Этап 2</p>
-                    <h2>Программирование графики</h2>
-                </div>
-                <div class="level-describe">
-                    <p>
-                        Описание
-                    </p>
+                <div class="subjects-list">
+                    <script class="populate-script">
+                        var script = document.currentScript
+                        var parent = script.parentElement
+                        generatePreviewSubject(parent, PROGRAMMING_LANGUAGE_INFO)
+                        generatePreviewSubject(parent, ALGORITHMS_AND_DATA_STRUCT_INFO)
+                    </script>
                 </div>
             </div>
-            <div class="subjects-list">
-                <script class="populate-script">
-                    var script = document.currentScript
-                    var parent = script.parentElement
-                    generatePreviewSubject(parent, GRAPHICS_LIB_INFO)
-                    generatePreviewSubject(parent, GAME_ENGINE_INFO)
-                </script>
-            </div>
-        </div>
-
-        <div id="advanced" class="section">
-            <div class="level-about">
-                <div class="level-header">
-                    <p class="level-number">Этап 3</p>
-                    <h2>Продвинутые знания</h2>
+    
+            <div id="base-cg" class="section">
+                <div class="level-about">
+                    <div class="level-header">
+                        <p class="level-number">Этап 2</p>
+                        <h2>Основы компьютерной графики</h2>
+                    </div>
+                    <div class="level-describe">
+                        <p>
+                            Описание
+                        </p>
+                    </div>
                 </div>
-                <div class="level-describe">
-                    <p>
-                        Описание
-                    </p>
-                </div>
-            </div>
-            <div class="subjects-list">
-                <script class="populate-script">
-                    var script = document.currentScript
-                    var parent = script.parentElement
-                    generatePreviewSubject(parent, GPGPU_INFO)
-                    generatePreviewSubject(parent, NUMERICAL_METHODS_INFO)
-                    generatePreviewSubject(parent, COMPUTATIONAL_GEOMETRY_INFO)
-                    generatePreviewSubject(parent, OPTIMIZATION_METHODS_INFO)
-                    generatePreviewSubject(parent, PBR_INFO)
-                </script>
-            </div>
-        </div>
-
-        <div id="highly-specialized" class="section">
-            <div class="level-about">
-                <div class="level-header">
-                    <p class="level-number">Этап 4</p>
-                    <h2>Узкоспециализированные знания</h2>
-                </div>
-                <div class="level-describe">
-                    <p>
-                        Описание
-                    </p>
+                <div class="subjects-list">
+                    <script class="populate-script">
+                        var script = document.currentScript
+                        var parent = script.parentElement
+                        generatePreviewSubject(parent, DIP_INFO)
+                        generatePreviewSubject(parent, MATH_CG_INFO)
+                    </script>
                 </div>
             </div>
-            <div class="subjects-list">
-                <script class="populate-script">
-                    var script = document.currentScript
-                    var parent = script.parentElement
-                    generatePreviewSubject(parent, TOMOGRAPHIC_CG_INFO)
-                    generatePreviewSubject(parent, PHOTOGRAMMETRY_INFO)
-                    generatePreviewSubject(parent, CAD_INFO)
-                </script>
-            </div>
-        </div>
-
-        <div id="addinitional-skills" class="section">
-            <div class="level-about">
-                <div class="level-header">
-                    <p class="level-number">Этап 4</p>
-                    <h2>Дополнительные навыки</h2>
+    
+            <div id="graphics-programming" class="section">
+                <div class="level-about">
+                    <div class="level-header">
+                        <p class="level-number">Этап 2</p>
+                        <h2>Программирование графики</h2>
+                    </div>
+                    <div class="level-describe">
+                        <p>
+                            Описание
+                        </p>
+                    </div>
                 </div>
-                <div class="level-describe">
-                    <p>
-                        Описание
-                    </p>
+                <div class="subjects-list">
+                    <script class="populate-script">
+                        var script = document.currentScript
+                        var parent = script.parentElement
+                        generatePreviewSubject(parent, GRAPHICS_LIB_INFO)
+                        generatePreviewSubject(parent, GAME_ENGINE_INFO)
+                    </script>
                 </div>
             </div>
-            <div class="subjects-list">
-                <script class="populate-script">
-                    var script = document.currentScript
-                    var parent = script.parentElement
-                    generatePreviewSubject(parent, DATA_ANALYSIS_INFO)
-                    generatePreviewSubject(parent, FUNC_ANALYSIS_INFO)
-                    generatePreviewSubject(parent, COMPLEX_ANALYSIS_INFO)
-                    generatePreviewSubject(parent, MATH_PHYS_INFO)
-                    generatePreviewSubject(parent, DIFF_INFO)
-                    generatePreviewSubject(parent, TOPOLOGICAL_ANALYSIS_INFO)
-                </script>
+    
+            <div id="advanced" class="section">
+                <div class="level-about">
+                    <div class="level-header">
+                        <p class="level-number">Этап 3</p>
+                        <h2>Продвинутые знания</h2>
+                    </div>
+                    <div class="level-describe">
+                        <p>
+                            Описание
+                        </p>
+                    </div>
+                </div>
+                <div class="subjects-list">
+                    <script class="populate-script">
+                        var script = document.currentScript
+                        var parent = script.parentElement
+                        generatePreviewSubject(parent, GPGPU_INFO)
+                        generatePreviewSubject(parent, NUMERICAL_METHODS_INFO)
+                        generatePreviewSubject(parent, COMPUTATIONAL_GEOMETRY_INFO)
+                        generatePreviewSubject(parent, OPTIMIZATION_METHODS_INFO)
+                        generatePreviewSubject(parent, PBR_INFO)
+                    </script>
+                </div>
+            </div>
+    
+            <div id="highly-specialized" class="section">
+                <div class="level-about">
+                    <div class="level-header">
+                        <p class="level-number">Этап 4</p>
+                        <h2>Узкоспециализированные знания</h2>
+                    </div>
+                    <div class="level-describe">
+                        <p>
+                            Описание
+                        </p>
+                    </div>
+                </div>
+                <div class="subjects-list">
+                    <script class="populate-script">
+                        var script = document.currentScript
+                        var parent = script.parentElement
+                        generatePreviewSubject(parent, TOMOGRAPHIC_CG_INFO)
+                        generatePreviewSubject(parent, PHOTOGRAMMETRY_INFO)
+                        generatePreviewSubject(parent, CAD_INFO)
+                    </script>
+                </div>
+            </div>
+    
+            <div id="addinitional-skills" class="section">
+                <div class="level-about">
+                    <div class="level-header">
+                        <p class="level-number">Этап 4</p>
+                        <h2>Дополнительные навыки</h2>
+                    </div>
+                    <div class="level-describe">
+                        <p>
+                            Описание
+                        </p>
+                    </div>
+                </div>
+                <div class="subjects-list">
+                    <script class="populate-script">
+                        var script = document.currentScript
+                        var parent = script.parentElement
+                        generatePreviewSubject(parent, DATA_ANALYSIS_INFO)
+                        generatePreviewSubject(parent, FUNC_ANALYSIS_INFO)
+                        generatePreviewSubject(parent, COMPLEX_ANALYSIS_INFO)
+                        generatePreviewSubject(parent, MATH_PHYS_INFO)
+                        generatePreviewSubject(parent, DIFF_INFO)
+                        generatePreviewSubject(parent, TOPOLOGICAL_ANALYSIS_INFO)
+                    </script>
+                </div>
             </div>
         </div>
     </div>
