@@ -3,6 +3,30 @@
     font-style: normal;
 }
 
+/* Базовый размер шрифта */
+html {
+    font-size: 16px; /* Базовый размер по умолчанию */
+}
+
+
+@media screen and (max-width: 1200px) {
+    html {
+        font-size: 14px; /* Уменьшаем на планшетах */
+    }
+}
+
+@media screen and (max-width: 992px) {
+    html {
+        font-size: 12px; /* Уменьшаем на планшетах */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 10px; /* Уменьшаем на мобильных */
+    }
+}
+
 .roboto-regular {
     font-family: "Roboto", serif;
     font-weight: 400;
@@ -21,34 +45,42 @@
     font-style: normal;
 }
 
-p, li {
-    font-size: 18px;
+/* Параграфы и списки */
+p, li, button {
+    font-size: 1rem; /* Относительно базового размера */
     font-weight: 400; /*Normal*/
     line-height: 150%;
 }
 
+/* Заголовки */
 h1, h2, h3, h4, h5, h6 {
     margin: 0px;
     font-weight: 700; /*Bold*/
 }
 
+/* Адаптивные заголовки с clamp() */
+h1 {
+    font-size: clamp(2rem, 5vw, 3rem); /* 32px → 48px */
+    line-height: 1.2;
+}
+
 h2 {
-    font-size: 48px;
-    line-height: 120%;
+    font-size: clamp(1.9rem, 4vw, 2.8rem); /* 28px → 40px */
+    line-height: 1.3;
 }
 
 h3 {
-    font-size: 24px;
-    line-height: 140%;
+    font-size: clamp(1.2rem, 3vw, 1.5rem);
+    line-height: 1.4;
 }
 
 h4 {
-    font-size: 18px;
-    line-height: 140%;
+    font-size: clamp(1.1rem, 2.5vw, 1.2rem);
+    line-height: 1.4;
 }
 
 .level-number {
     font-weight: 600; /*Semi-bold*/
     line-height: 150%;
-    font-size: 16px;
+    font-size: clamp(0.9rem, 2vw, 1.1rem); /* 14px → 18px */
 }
