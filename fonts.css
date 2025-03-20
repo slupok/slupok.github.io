@@ -17,13 +17,13 @@ html {
 
 @media screen and (max-width: 992px) {
     html {
-        font-size: 12px; /* Уменьшаем на планшетах */
+        font-size: 14px; /* Уменьшаем на планшетах */
     }
 }
 
 @media screen and (max-width: 768px) {
     html {
-        font-size: 10px; /* Уменьшаем на мобильных */
+        font-size: 12px; /* Уменьшаем на мобильных */
     }
 }
 
