@@ -137,7 +137,7 @@ h1, h2, h3 {
 }
 
 .section {
-    /*padding: 112px 64px;*/
+    padding-top: 112px;
     display: flex;
     flex-direction: column;
     gap: 60px;
@@ -145,18 +145,21 @@ h1, h2, h3 {
 
 @media screen and (max-width: 1200px) {
     .section {
+        padding-top: 40px;
         gap: 35px;
     }
 }
 
 @media screen and (max-width: 992px) {
     .section {
+        padding-top: 32px;
         gap: 28px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .section {
+        padding-top: 16px;
         gap: 14px;
     }
 }
@@ -258,8 +261,26 @@ h1, h2, h3 {
 .material {
     display: flex;
     justify-content: space-between;
-    padding: clamp(24px, 10vw, 112px) clamp(12px, 5vw, 64px);
+    padding: 112px 64px;
     
+}
+
+@media screen and (max-width: 1200px) {
+    .material {
+        padding: 40px 26px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .material {
+        padding: 32px 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .material {
+        padding: 16px 8px;
+    }
 }
 
 .about-material {
