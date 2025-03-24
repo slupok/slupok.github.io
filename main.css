@@ -164,6 +164,10 @@ h1, h2, h3 {
     }
 }
 
+.section:nth-child(1) {
+    padding-top: 0px;
+}
+
 .level-about {
     display: flex;
     justify-content: space-between;
@@ -289,4 +293,14 @@ h1, h2, h3 {
 
 .material-details {
     width: 50%;
+}
+
+footer {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    border-top: solid 1px #d2d7dc;
+    color: #a2a7ac;
+    padding-top: 4em;
+    margin-top: 6em;
 }
