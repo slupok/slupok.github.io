@@ -170,8 +170,7 @@ h1, h2, h3 {
 
 .level-about {
     display: flex;
-    justify-content: space-between;
-    gap: 80px;
+    gap: 0px 80px;
 }
 
 .level-header {
@@ -181,6 +180,51 @@ h1, h2, h3 {
 .level-describe {
     width: 50%;
 }
+
+@media screen and (max-width: 1200px) {
+    .level-about {
+        gap: 0px 50px;
+    }
+
+    .level-header {
+        width: 100%;
+    }
+    
+    .level-describe {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .level-about {
+        flex-direction: column;
+        gap: 0px 0px;
+    }
+
+    .level-header {
+        width: 100%;
+    }
+    
+    .level-describe {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .level-about {
+        flex-direction: column;
+        gap: 0px 0px;
+    }
+
+    .level-header {
+        width: 100%;
+    }
+    
+    .level-describe {
+        width: 100%;
+    }
+}
+
 
 /* subjects-list */
 
@@ -261,6 +305,8 @@ h1, h2, h3 {
 .subject {
 
 }
+
+/* Полезные материалы */
 
 .material {
     display: flex;
