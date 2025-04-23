@@ -4,7 +4,7 @@
 }
 
 body {
-
+ background-color: #f8f6f1;
 }
 
 header {
@@ -16,6 +16,16 @@ header {
 
 h1, h2, h3 {
     margin: 0px;
+}
+
+button {
+    background-color: #c2947f82;
+    color: #5a3e36;
+    border-width: 0px;
+}
+
+button:hover {
+    background-color: #c2947f;
 }
 
 #logo {
@@ -261,9 +271,10 @@ h1, h2, h3 {
 .subjects-list > .subject {
     margin-bottom: 0;
     width: calc(33.3% - (32px / 3) * 2);
-    background-color: #f0dfde;
+    background-color: #f3e6d3; /*понравилось - #f3e6d3 и #e2d3b3*/
     border-radius: 2%;
     padding: 8px;
+    box-shadow: 0px 0px 4px #3a3a3a ;
 }
 
 @media screen and (max-width: 1200px) {
@@ -323,6 +334,13 @@ h1, h2, h3 {
 
 }
 
+.subject-image-preview {
+    width: 100%;
+    border: 1px solid #b8a890;
+    border-radius: 5px;
+    margin: 0px;
+}
+
 /* Полезные материалы */
 
 .material {
@@ -334,7 +352,7 @@ h1, h2, h3 {
 
 .about-material {
     width: 100%;
-    background-color: #f0dfde;
+    background-color: #f3e6d3;
 }
 
 .material-details {
