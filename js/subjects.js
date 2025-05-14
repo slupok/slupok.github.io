@@ -8,6 +8,7 @@ const NULL_INFO = {
 const MATH_ANALYSIS_INFO = {
     attribute: 1,
     title: "Математический анализ",
+    image: "resources/subjects/default.png",
     description: "Математический анализ обобщает математические операции и концепции, которые применимы в компьютерной графике. Он охватывает такие аспекты, как переходы между системами координат, параметрические модели, объекты вращения и т.п. Все эти элементы могут быть описаны и преобразованы с помощью математических функций и уравнений.",
     resources: ['[easy] <a href="https://www.youtube.com/playlist?list=PLVjLpKXnAGLVbrcJdDb0a2RS6MmRCgxJz">Суть математического анадиза</a>. Интерактивное введение',
                 '[easy] <a href="http://mathprofi.ru/predely_primery_reshenii.html">Теория пределов</a>. Теория пределов от mathprofi',
@@ -27,6 +28,7 @@ const MATH_ANALYSIS_INFO = {
 const ALGEBRA_INFO = {
     attribute: 2,
     title: "Линейная алгебра",
+    image: "resources/subjects/default.png",
     description: "Дает фундаментальные знания работы с векторами, матрицами и пространствами. Которые представляют собой инструменты работы с геометрическими объектами",
     resources: ['[easy] <a href="https://www.youtube.com/playlist?list=PLVjLpKXnAGLXPaS7FRBjd5yZeXwJxZil2">Сущность Линейной Алгебры</a>. Интерактивное введение',
                 '[easy] <a href="https://habr.com/ru/articles/131931/">Линейная алгебра для разработчиков игр</a>. Базовые концепции линейной алгебры',
@@ -38,6 +40,7 @@ const ALGEBRA_INFO = {
 const ANALYTICAL_GEOMETRY_INFO = {
     attribute: 3,
     title: "Аналитическая геометрия",
+    image: "resources/subjects/default.png",
     description: "Геометрия является областью изучающая пространственные фигуры. Компьютерная графика повсеместно состоит из геометрических фигур",
     resources: ['[easy] <a href="http://mathprofi.ru/vektory_dlya_chainikov.html">Аналитическая геометрия</a>. Аналитическая геометрия от mathprofi',
                 '[medium] Ильин В.А. Позняк Э.Г. "Аналитическая геометрия". Классический университетский учебник'
@@ -47,6 +50,7 @@ const ANALYTICAL_GEOMETRY_INFO = {
 const DISCRETE_MATH_INFO = {
     attribute: 4,
     title: "Дискретная математика",
+    image: "resources/subjects/default.png",
     description: "Дает теоретические основы для работы с разными структурами данных. Логика, графы, деревья, множества, отношения и т.д. - все это важные элементы прикладной математики в целом",
     resources: ['[medium] Новиков Ф.А. "Дискретная математика для программистов"']
 }
@@ -54,6 +58,7 @@ const DISCRETE_MATH_INFO = {
 const STATISTICS_AND_PROBABILITY_INFO = {
     attribute: 5,
     title: "Теория вероятностей и математическая статистика",
+    image: "resources/subjects/default.png",
     description: "Компьютерная графика активно использует вероятностные и статистические методы, например, для симуляции отражения и преломления света, моделирования физических процессов, обработки изображений и задач компьютерного зрения",
     resources: ['[easy] <a href="http://mathprofi.ru/teorija_verojatnostei.html">Теория вероятностей</a>. Теория вероятностей от mathprofi',
                 '[easy] <a href="https://stepik.org/course/3089/promo">Основы теории вероятностей</a>. Курс по основам теории вероятностей на stepik',
@@ -68,6 +73,7 @@ const STATISTICS_AND_PROBABILITY_INFO = {
 const PROGRAMMING_LANGUAGE_INFO = {
     attribute: 6,
     title: "Языки программирования",
+    image: "resources/subjects/default.png",
     description: "Первым делом, язык программирования - это инструмент, инструмент для общения с компьютером. Важно еще понимать, что не существует универсального ЯП, каждый ЯП решает определенный задачи",
     resources: ['[easy] <a href="https://education.yandex.ru/handbook/cpp">Основы C++</a>. Яндекс хендбук',
                 '[medium] <a href="https://habr.com/ru/articles/599801/">Просто о шаблонах С++</a>. Введение в метапрограммирование на C++',
@@ -80,6 +86,7 @@ const PROGRAMMING_LANGUAGE_INFO = {
 const ALGORITHMS_AND_DATA_STRUCT_INFO = {
     attribute: 7,
     title: "Алгоритмы и структуры данных",
+    image: "resources/subjects/default.png",
     description: "Алгоритм — это последовательность шагов, необходимых для решения задачи. Они являются основой любого программного обеспечения и могут быть описаны с помощью ЯП. \n Структуры данных — это способ хранения и организации данных, облегчающий доступ, добавление, удаление и изменение данных. Они используются для оптимизации производительности программы и сокращения количества используемой памяти",
     resources: ['[easy] <a href="https://education.yandex.ru/handbook/algorithms">Основы алгоритмов</a>. Яндекс хендбук',
                 '[hard] Дональд Кнут "Искусство программирования (Том 1-4)". Легендарный четырехтомник, который не так просто осилить',
@@ -91,6 +98,7 @@ const ALGORITHMS_AND_DATA_STRUCT_INFO = {
 const DIP_INFO = {
     attribute: 8,
     title: "Основы цифровой обработки изображений",
+    image: "resources/subjects/default.png",
     description: "Изучает алгоритмы и методы обработки цифровых изображений. Чаще всего цифровая обработка изображений (ЦОИ) сводится к цифровой фильтрации изображения: устранение шумов, сглаживание, повышение резкости и т.д. ЦОИ - это очень большой раздел математики",
     resources: ['<a href="https://www.youtube.com/playlist?list=PLlb7e2G7aSpR6L3pqVh8124ZITsmWckQZ">Анализ изображений и видео, часть 1</a>. Хороший курс, местами упоминаются термины анализа данных',
                 '<a href="https://www.youtube.com/playlist?list=PLlb7e2G7aSpQdGYOtlbo1_2yDcewW3G0m">Анализ изображений и видео, часть 2</a>. Хороший курс, местами упоминаются термины анализа данных',
@@ -102,6 +110,7 @@ const DIP_INFO = {
 const MATH_CG_INFO = {
     attribute: 9,
     title: "Математические основы компьютерной графики",
+    image: "resources/subjects/default.png",
     description: "Компьютерная графика (КГ) - Раздел математики изучающий совокупность методов и приемов для преобразования данных в графическое представление. Машинная графика представляет собой симбиоз линейной алгебры и аналитической геометрии",
     resources: ['[en/ru] <a href="https://github.com/ssloy/tinyrenderer/wiki/Lesson-0:-getting-started">Render tutorial</a>. Создание упрощенной графической библиотеки на подобии OpenGL',
                 '[en/ru] <a href="https://github.com/ssloy/tinyraycaster/wiki/Part-0:-getting-started">Ray cast tutorial</a>. Создание клона игры Wolfenstein 3D без использования графических библиотек',
@@ -116,9 +125,11 @@ const MATH_CG_INFO = {
 const GRAPHICS_LIB_INFO = {
     attribute: 10,
     title: "Графические библиотеки",
+    image: "resources/subjects/default.png",
     description: "Графическая библиотека - это программная библиотека, предназначенная для рендеринга компьютерной графики. Как правило, она предоставляет оптимизированные версии функций, которые выполняют распространённые задачи рендеринга (отрисовка треугольников, растеризация и т.д.\n Основные технологии: OpenGL, Vulkan, Metal, DirectX3D",
     resources: ['[en] <a href="https://vulkan-tutorial.com/">Vulkan tutorial</a>. Официальный обучающий материал по Vulkan',
                 '[en] <a href="https://thebookofshaders.com/">The book of shaders</a>. Руководство по написанию шейдеров',
+                '[en] <a href="https://en.wikipedia.org/wiki/Graphics_pipeline">Render pipeline</a>. Страница на вики про конвеер рендера',
                 '[en] <a href="https://developer.apple.com/metal/sample-code/">Metal Sample Code</a>. Официальное руководство с примерами Metal',
                 '[en] <a href="https://www.3dgep.com/learning-directx-12-1/">DirectX tutorial</a>. Серия уровков по DorectX',
                 '[en] <a href="https://github.com/microsoft/DirectX-Graphics-Samples">DirectX Graphics Samples</a>. Официальные примеры кода DirectX',

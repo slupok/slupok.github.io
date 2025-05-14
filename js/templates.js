@@ -7,7 +7,7 @@ var subjectTemplate = Handlebars.compile(previewSubjectSource());
 function previewSubjectSource()
 {
     var html = '<div class="subject">'
-    html +=     '<img src="resources/Book1.svg">'
+    html +=     '<img class="subject-image-preview" src={{image}}>'
     html +=     '<h3>{{title}}</h3>'
     html +=     '<p style="white-space: pre-line">'
     html +=         '{{description}}'
@@ -22,6 +22,7 @@ function generatePreviewSubject(parent, subject) {
     let html = subjectTemplate({
         attribute: subject.attribute,
         title: subject.title,
+        image: subject.image,
         description: subject.description
     });
     parent.innerHTML += html
