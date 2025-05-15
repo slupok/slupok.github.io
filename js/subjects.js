@@ -8,7 +8,7 @@ const NULL_INFO = {
 const MATH_ANALYSIS_INFO = {
     attribute: 1,
     title: "Математический анализ",
-    image: "resources/subjects/default.png",
+    image: "resources/subjects/math.png",
     description: "Математический анализ обобщает математические операции и концепции, которые применимы в компьютерной графике. Он охватывает такие аспекты, как переходы между системами координат, параметрические модели, объекты вращения и т.п. Все эти элементы могут быть описаны и преобразованы с помощью математических функций и уравнений.",
     resources: ['[easy] <a href="https://www.youtube.com/playlist?list=PLVjLpKXnAGLVbrcJdDb0a2RS6MmRCgxJz">Суть математического анадиза</a>. Интерактивное введение',
                 '[easy] <a href="http://mathprofi.ru/predely_primery_reshenii.html">Теория пределов</a>. Теория пределов от mathprofi',
@@ -141,6 +141,7 @@ const GRAPHICS_LIB_INFO = {
 const GAME_ENGINE_INFO = {
     attribute: 11,
     title: "Игровые движки",
+    image: "resources/subjects/default.png",
     description: "Игровой движок - это фреймворк, предназначенный в первую очередь для разработки видеоигр и обычно включающий соответствующие библиотеки и вспомогательные программы.\n Рекомендация по обучению: в изучении игровых движков гораздо большое влияние имеет практика, чем теория",
     resources: ['[en/ru] <a href="https://learn.unity.com/tutorials">Unity Lern</a>. Официальные обучающие материалы по Unity с разными уровнями сложности',
                 '[en] <a href="https://dev.epicgames.com/community/unreal-engine/learning">Learn Unreal Engine</a>. Библиотека обучающих материалов по Unreal Engine',
@@ -151,6 +152,7 @@ const GAME_ENGINE_INFO = {
 const GPGPU_INFO = {
     attribute: 12,
     title: "Вычисления на видеокартах (GPGPU)",
+    image: "resources/subjects/default.png",
     description: "Вычисления на графических процессорах - методика использование графического процессора видеокарты для математических вычислений.\n В основном выделяют технологии: CUDA (NVidia devices), OpenCL (most devices), Metal (Apple devices), ROCm (AMD devices)",
     resources: ['[ru] <a href="https://www.youtube.com/playlist?list=PLlb7e2G7aSpSptbl_yI5uvMlpRc1mwsCL">Вычисления на видеокартах</a>. Курс, в котором рассказываются общие концепции GPGPU без привязки к какой-то конкретной технологии',
                 '[ru] <a href="https://github.com/GPGPUCourse/GPGPUSpeedupGuidelines?tab=readme-ov-file">Профилирование и ускорение GPGPU</a>. Короткий курс из двух лекции по ускорению работы GPGPU',
@@ -161,6 +163,7 @@ const GPGPU_INFO = {
 const NUMERICAL_METHODS_INFO = {
     attribute: 13,
     title: "Численные методы",
+    image: "resources/subjects/default.png",
     description: "Численные методы изучают алгоритмы, которые позволяют находить приближённые, но достаточно точные решения широкого спектра сложных задач. Например: решение систем линейных и нелинейных уравнений, численное решение дифференциальные и интегральные уравнения, интерполирование и приближённое вычисление функций, решения задач численной линейной алгебры и т.д.",
     resources: ['Бахвалов Н.С., Жидков Н.П., Кобельков Г.М. "Численные методы". Классический университетский учебник',
                 '[ru] <a href="https://teach-in.ru/course/numerical-methods-part-1">Численные методы. Часть 1</a>. Лекции МехМата МГУ. Лектор также соавтор популярной одноименной книги',
@@ -173,6 +176,7 @@ const NUMERICAL_METHODS_INFO = {
 const COMPUTATIONAL_GEOMETRY_INFO = {
     attribute: 14,
     title: "Вычислительная геометрия",
+    image: "resources/subjects/default.png",
     description: "Вычислительная геометрия изучает алгоритмы для решения геометрических задач. В ней рассматриваются такие задачи как триангуляция, построение выпуклой оболочки, определение принадлежности одного объекта другому, поиск их пересечения и т. п. Она оперируют с такими геометрическими объектами как: точка, отрезок, многоугольник, окружность и т. д.",
     resources: ['Фокс А., Пратт М. "Вычислительная геометрия. Применение в проектировании и на производстве"',
                 "..",
@@ -182,12 +186,14 @@ const COMPUTATIONAL_GEOMETRY_INFO = {
 const OPTIMIZATION_METHODS_INFO = {
     attribute: 15,
     title: "Методы оптимизаций",
+    image: "resources/subjects/default.png",
     description: "Оптимизация в математике — задача нахождения экстремума (минимума или максимума) целевой функции в некоторой области конечномерного векторного пространства. Методы оптимизаций играют вазжейшую роль в машинном обучении, именно на этих методах основаны все алгоритмы обучения",
     resources: ["..", "..", ".."]
 }
 
 const DATA_ANALYSIS_INFO = {
     attribute: 16,
+    image: "resources/subjects/default.png",
     title: "Статистический анализ данных",
     description: "Скоро будет описание...",
     resources: ["..", "..", ".."]
@@ -195,6 +201,7 @@ const DATA_ANALYSIS_INFO = {
 
 const TOMOGRAPHIC_CG_INFO = {
     attribute: 17,
+    image: "resources/subjects/default.png",
     title: "Обработка и визуализация томмографических данных",
     description: "Скоро будет описание...",
     resources: ['[en] <a href="https://www.imaios.com/en/e-mri">Курсы по основам МРТ</a>. Курс ориентирован больше на медицинские аспекты, чем математические.',
@@ -205,6 +212,7 @@ const TOMOGRAPHIC_CG_INFO = {
 
 const PHOTOGRAMMETRY_INFO = {
     attribute: 18,
+    image: "resources/subjects/default.png",
     title: "Фотограмметрия",
     description: "Методика сканирования объектов, который использует фотокамеры или их комбинации для точного измерения формы, размера и положения объектов в пространстве",
     resources: ['[ru] <a href="https://www.youtube.com/watch?v=dowgzvj9M6I&list=PL5p-5hHpsHBrtQQptYgT3kdt3Egb5QNci">Видео-курс по фотограмметрии</a>']
@@ -220,6 +228,7 @@ const CAD_INFO = {
 const FUNC_ANALYSIS_INFO = {
     attribute: 20,
     title: "Функциональный анализ",
+    image: "resources/subjects/default.png",
     description: "Скоро будет описание...",
     resources: ['А.Н. Колмогоров, С.В. Фомин. "Элементы теории функций и функционального анализа". Университетский учебник',
                 'Люстерник Л.А., Соболев В.И. "Элементы функционального анализа". Университетский учебник'
@@ -229,6 +238,7 @@ const FUNC_ANALYSIS_INFO = {
 const COMPLEX_ANALYSIS_INFO = {
     attribute: 21,
     title: "Комплексный анализ",
+    image: "resources/subjects/default.png",
     description: "Скоро будет описание...",
     resources: ["..", "..", ".."]
 }
@@ -236,6 +246,7 @@ const COMPLEX_ANALYSIS_INFO = {
 const MATH_PHYS_INFO = {
     attribute: 22,
     title: "Уравнения математической физики",
+    image: "resources/subjects/default.png",
     description: "Скоро будет описание...",
     resources: ["..", "..", ".."]
 }
@@ -243,6 +254,7 @@ const MATH_PHYS_INFO = {
 const DIFF_INFO = {
     attribute: 23,
     title: "Дифференциальные уравнения",
+    image: "resources/subjects/default.png",
     description: "Скоро будет описание...",
     resources: ['Петровский И. Г. "Лекции по теории обыкновенных дифференциальных уравнений". Университетский учебник'
             ]
@@ -250,14 +262,18 @@ const DIFF_INFO = {
 
 const TOPOLOGICAL_ANALYSIS_INFO = {
     attribute: 24,
-    title: "Топологический анализ",
+    title: "Топологический анализ и топология",
+    image: "resources/subjects/default.png",
     description: "Скоро будет описание...",
-    resources: ['[ru] <a href="https://www.youtube.com/playlist?list=PLKXEsFnBcT5BD47xO19UsKshsQ7DMU3Sa">Что такое топологический анализ данных</a>']
+    resources: ['[ru] <a href="https://www.youtube.com/playlist?list=PLKXEsFnBcT5BD47xO19UsKshsQ7DMU3Sa">Что такое топологический анализ данных</a>',
+                '[ru] <a href="https://stepik.org/course/75311/promo">Теория гомологий</a>. Курс на stepik'
+    ]
 }
 
 const PBR_INFO = {
     attribute: 25,
     title: "Физически корректный рендеринг",
+    image: "resources/subjects/default.png",
     description: "Physically based rendering (PBR) - это метод компьютерной графики, который позволяет рендерить фотореалистичные изображения.",
     resources: ['[en] <a href="https://pbr-book.org/">Physically Based Rendering: From Theory To Implementation</a> Основная книга по PBR',
                 '[en] Julian Fong, Magnus Wrenninge, Christopher Kulla and Ralf Habel "Production volume rendering: SIGGRAPH 2017 course". Большая статья, описывающая техники современного объемного рендеринге в кинопроизводстве'
