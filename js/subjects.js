@@ -80,6 +80,7 @@ const PROGRAMMING_LANGUAGE_INFO = {
                 '[medium] <a href="https://www.youtube.com/playlist?list=PLmGioT8z4uobADCfbspDyzZtshzFFCRyj">Лекции C++</a>. Продвинутые лекции по современным стандартам C++',
                 '[easy] <a href="https://education.yandex.ru/handbook/python">Основы python</a>. Яндекс хендбук',
                 '[easy] <a href="https://senjun.ru/courses/python/">Курс python</a>. Opensource курс по python',
+                '[easy][en] <a href="https://www.geeksforgeeks.org/python-programming-language-tutorial/">Python</a>. Python Tutorial (geeksforgeeks)',
                 '[medium] Андрей Александреску "Современное проектирование на С++". Хорошее книга по метапрограммированию']
 }
 
