@@ -12,6 +12,8 @@ header {
     justify-content: space-between;
     padding-left: clamp(16px, 5vw, 64px);
     padding-right: clamp(16px, 5vw, 64px);
+    max-width: 1440px;
+    margin: auto;
 }
 
 h1, h2, h3 {
